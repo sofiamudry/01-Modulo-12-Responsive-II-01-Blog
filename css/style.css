@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: mediumorchid;
+    font-family: 'montserrat';
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 5em;
+}
+
+.description {
+    font-size: 1.5em;
+}
+
+.biography {
+    font-size: 2rem;
+}
+
+.art-work {
+    font-size: 2rem;
+}
+
+.childhood, .adulthood, .beginings, .last-works {
+    font-size: 1rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.sub-sub-title {
+    font-size: 2rem;
+}
+
+.subsection-description {
+    font-size: 1.3rem;
+}
+
+@media (max-width:800px) {
+    .container {
+        background-color: mediumslateblue;
+        font-size: 1.5rem;
+    }
+}
